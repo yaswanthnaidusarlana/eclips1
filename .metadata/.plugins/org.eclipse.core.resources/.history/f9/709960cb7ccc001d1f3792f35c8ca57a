@@ -1,0 +1,17 @@
+package testrunner;
+
+import.org.junit.runner.Runwith;
+impoet.io.cucumber.junit.cucumber;
+impoet.io.cucumber.junit.cucumberoptions;
+
+@Runwith(cucumber.class)
+@CucumberOptions(features".//Feature/login.feature",
+	glue="stepDefinition",
+	dryRun=false,
+	monochrome=true)
+
+
+}
+public class runner {
+
+}

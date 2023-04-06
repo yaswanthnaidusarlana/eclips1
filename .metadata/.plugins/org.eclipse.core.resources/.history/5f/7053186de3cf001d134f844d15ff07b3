@@ -1,0 +1,5 @@
+package com.amazom.pageobjects;
+
+public class login {
+
+}
